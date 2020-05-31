@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding:0;
+  
+}
+
+.calculator{
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  width: 1365px;
+  height: 590px;
+
+  
+}
+
+.content{
+ 
+  width: 320px;
+  height: 560px;
+  border: 5px solid darkred;
+  position: relative;
+  border-radius: 12px;
+  padding: 10px 10px;
+  margin-top: 30px;
+  margin-left: 500px; 
+  background-color: white;  
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.result{
+height: 120px;
+
+}
+
+
+.input{
+
+text-align: right;
+height: 20px;
+margin: 0 20px;
+padding-top: 20px;
+font-size: 30px;
+color: blueviolet;
+font-family: fantasy;
+
+}
+
+
+.output{
+
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+  font-family: fantasy;
+  color:lightcoral;
+}
+
+.operator , .number , .empty{
+
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.number , .empty  {
+   
+  background-color: aliceblue;
+
+}
+
+.operator{
+  background-color: lightcyan;
+}
+
+
+
+
+.number , .operator{
+  
+  cursor: pointer;
+}
+
+
+
+.operator:active , .number:active{
+  font-size: 12px;
+}
+
+.operator:focus , .number:focus , .empty:focus{
+  outline: 0;
+}
+
+
+button:nth-child(4){
+
+  background-color: crimson;
+  color: white;
+
+}
+
+
+button:nth-child(8){
+background-color:darkturquoise;
+color: white;
+
+
+}
+
+
+button:nth-child(12){
+ 
+  background-color: darkred;
+  color: white;
+
+ 
+
+}
+
+button:nth-child(16){
+
+
+  background-color: darkmagenta;
+  color: white;
+
+  
+}
+
+button:nth-child(20){
+
+   background-color: darkorange;
+   color: white;
+
+  }
+
+
+
